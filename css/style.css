@@ -8,10 +8,78 @@
     font-style: normal;
 }
 
+header {
+    background: url(../img/1.png) center / cover no-repeat #666;
+    min-height: 520px; /* также определим минимальную высоту хедера */
+    padding-top: 50px; /* и добавим отступы для содержимого */
+    text-align: center;
+    padding-bottom: 50px;
+}
 
-.justify-content-center-one{
+#topbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    
+}
+
+.menu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Gilroy';
+    margin-right: 35px;
+    text-transform: capitalize;
+}
+#color-topbar{
+    color: #af1e1e;
+}
+a{
+    text-decoration: none;
     color: #fff;
 }
+.menu li a:hover {
+    background-color:#FF7475;
+}
+.topbar-title-text{
+    font-family: 'Gilroy';
+}
+
+.topbar-title-text-page{
+    color: #FF7475;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.topbar-title-text-page-two{
+    margin-top: -20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.topbar-title-text-page-thre{
+    color: #fff;
+    font-weight: bold;
+   
+}
+
+
+
+
+
+
+
+
+
+
 #img-fluid-2{
     margin-top: -486px;
 }
@@ -237,4 +305,32 @@ color: #fff;
     color: #fff;
     font-size: 22px;
 }
+
+
+/* Боковое навигационное меню */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Сайдбар ссылки */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  aside{
+      width: 260px;
+      float: right;
+      margin-top: -1300px;
+      padding-left: -160px;
+      
+  }
 
