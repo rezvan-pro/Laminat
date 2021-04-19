@@ -7,6 +7,9 @@
     font-weight: 100;
     font-style: normal;
 }
+.container{
+    width: 1170px;
+}
 
 header {
     background: url(../img/1.png) center / cover no-repeat #666;
@@ -67,22 +70,11 @@ a{
 
 .topbar-title-text-page-thre{
     color: #fff;
-    font-weight: bold;
-   
+    font-weight: bold; 
 }
 
 
-
-
-
-
-
-
-
-
-#img-fluid-2{
-    margin-top: -486px;
-}
+ 
 
 .visually-hidden{
     font-size: 21px;
@@ -97,24 +89,42 @@ a{
 }
 
 .text-blog-page{
-    width: 692px;
-    margin-left:65px;
     margin-top: 50px;
 }
 .title-text{
     font-family: 'Gilroy';
-    
-    
     font-size: 20px;
     color: #939393;
+    font-weight: bolder;
  
 }
 .title-text-page{
     font-family: 'Gilroy';
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 16px;
     color: #939393;
+    padding-bottom: 70px;
 }
+#img-size-1{
+    width: 30%; 
+    float: right;
+}
+#img-size-2{
+    width: 30%;
+    float: left;
+}
+#img-size-3{
+    width: 30%;
+    float: right;
+}
+#img-size-4{
+    width: 30%;
+    float: left;
+}
+#img-size-5{
+    width: 30%;
+    float: right;
+}
+
 
 .text-blog-page-laminat{
     width: 600px;
@@ -255,17 +265,8 @@ a:hover {font-size:16px; color:black; font-weight:bold}
 #title-menu-12{
     color: #939393;  
 }
-.knopki{
-    margin-top: 10px;
-    margin-right: 15px;
-}
 
-.clearfix{
-  width: 750px;
-  font-size: 13px;
-  margin-left: 90px;
-  font-family:sans-serif;
-}
+
 .page-title-laminat{
     color: #939393;
     font-weight: 170px;
@@ -273,25 +274,6 @@ a:hover {font-size:16px; color:black; font-weight:bold}
 .page-title-laminat-title{
     color: #939393;
     font-weight: bold;
-}
-#img-size-1{
-    width: 30%;
-    
-}
-
-#img-size-2{
-    width: 30%;
-    padding-right: 30px;
-}
-#img-size-3{
-    width: 30%;
-}
-#img-size-4{
-    width: 30%;
-    padding-right: 30px;
-}
-#img-size-5{
-    width: 30%;
 }
 
 .carousel-inner-blog{
@@ -329,8 +311,6 @@ color: #fff;
   aside{
       width: 260px;
       float: right;
-      margin-top: -1300px;
-      padding-left: -160px;
       
-  }
+}
 
