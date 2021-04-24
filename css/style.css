@@ -21,7 +21,7 @@
 
 #ul {
     position: absolute;
-    top: 80%;
+    
     left: 75%;
     
 }
@@ -31,10 +31,10 @@
     flex-wrap: nowrap;
     flex-direction: column;
     height: 100%;
-  }
+}
   .navbar-container .navbar-collapse {
     align-items: flex-start;
-  }
+}
   .navbar-container .nav {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -72,9 +72,6 @@ header {
     margin-right: 35px;
     text-transform: capitalize;
     font-family: 'MuseoSansCyrl-300';
-}
-#color-topbar{
-    color: #af1e1e;
 }
 a{
     text-decoration: none;
@@ -119,7 +116,7 @@ a{
 
 .text-blog-page{
     margin-top: 50px;
-
+    position: sticky;
 }
 .title-text{
     font-family: 'Tahoma Regular';
@@ -132,39 +129,34 @@ a{
     font-family: 'Tahoma Regular';
     font-size: 15px;
     color: #939393;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     
 }
 
 #img-size-1{
     width: 23%; 
     float: right;
-   
-   
 }
 #img-size-2{
     width: 23%;
     float: left;
     padding-right: 18px;
-
-    
 }
 #img-size-3{
     width: 23%;
-    float: right;
-    
-    
+    float: right;  
 }
+
 #img-size-4{
     width: 23%;
     float: left;
     padding-right: 18px;
- 
+    padding-bottom: 17px;
 }
+
 #img-size-5{
-    width: 23%;
+    width: 22%;
     float: right;
-   
 }
 
 
@@ -187,36 +179,6 @@ a{
 }
 
 
-.laminat-img{
-    float: left;
-    display:inline-block;
-    width: 250px;
-    height: 250px;
-    margin-left: 560px;
-    padding-top: 290px;
-}
-.laminat-img-two{
-    float: left;
-    display:block;
-    padding-top: 90px;
-}
-
-
-.title-text-laminat-two{
-    font-size: 18px;
-    color: #939393; 
-}
-.title-text-page-laminat-two{
-    font-size: 14px;
-    font-weight: 120;
-    color: #939393;
-    
-}
-.text-blog-page-laminat-two{
-    width: 600px;
-    margin-left: 70px;
-    float: left;
-}
 .text-blog-page-laminat-position{
     width: 55%;
     margin-top: -80px;   
@@ -290,14 +252,12 @@ a:hover {font-size:16px; color:black; font-weight:bold}
 #title-menu-10{
     color: #939393;  
 }
-#title-menu-11{
+#title-menu-11 {
     color: #939393;  
 }
 #title-menu-12{
     color: #939393;  
 }
-
-
 .page-title-laminat{
     color: #939393;
     font-weight: 170px;
@@ -306,10 +266,8 @@ a:hover {font-size:16px; color:black; font-weight:bold}
     color: #939393;
     font-weight: bold;
 }
-
 .carousel-inner-blog{
     color: #FF7475;
-   
 }
 .carousel-inner-title{
 color: #fff;
@@ -318,33 +276,3 @@ color: #fff;
     color: #fff;
     font-size: 22px;
 }
-
-
-/* Боковое навигационное меню */
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  /* Сайдбар ссылки */
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  aside{
-    font-family: 'MuseoSansCyrl-300';
-      width: 260px;
-      float: right;
-      text-align: end; 
-      margin-bottom: 15px;
-      margin-top: 20px;  
-}
-
