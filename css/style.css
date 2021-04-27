@@ -8,16 +8,7 @@
 		url('../fonts/museosanscyrl-300.svg#museosanscyrl-300') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-@font-face {
-    font-family: 'Tahoma Regular';
-    src: url('../fonts/Tahoma.eot');
-    src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Tahoma.woff') format('woff'),
-    url('../fonts/Tahoma.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-   
+
 
     @font-face {
         font-family: "Gilroy";
@@ -85,7 +76,6 @@
 
 #ul {
     position: absolute;
-    
     left: 75%;
     
 }
@@ -200,8 +190,7 @@ a{
     font-weight: 400;
     font-size: 15px;
     color: #939393;
-    padding-bottom: 80px;
-    
+    padding-bottom: 80px; 
 }
 
 #img-size-1{
@@ -236,8 +225,7 @@ a{
     margin-top: -220px;
     margin-left: 70px;
     float: left;
-    display: block;
-  
+    display: block; 
 }
 .title-text-laminat{
     font-size: 18px;
@@ -264,6 +252,7 @@ a{
     float: left;
     display: block;
 }
+
 .list-title{
     float: left;
     font-size: 18px;
@@ -342,7 +331,7 @@ a:hover {font-size:16px; color:black; font-weight:bold}
     color: #FF7475;
 }
 .carousel-inner-title{
-color: #fff;
+	color: #fff;
 }
 .carousel-inner-page{
     color: #fff;
