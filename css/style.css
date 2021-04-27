@@ -17,7 +17,71 @@
     font-weight: normal;
     font-style: normal;
     }
+   
 
+    @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.woff2") format("woff2");
+        font-weight: 900;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+        font-weight: 500;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.woff2") format("woff2");
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.woff2") format("woff2");
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.woff2") format("woff2");
+        font-weight: 300;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-UltraLight.woff") format("woff"), url("../fonts/Gilroy-UltraLight.woff2") format("woff2");
+        font-weight: 300;
+        font-display: swap;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "Gilroy";
+        src: url("../fonts/Gilroy-Thin.woff") format("woff"), url("../fonts/Gilroy-Thin.woff2") format("woff2");
+        font-weight: 100;
+        font-display: swap;
+        font-style: normal;
+      }
 
 #ul {
     position: absolute;
@@ -68,10 +132,11 @@ header {
     display: block;
     text-decoration: none;
     color: #fff;
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
+    font-weight: 300;
     margin-right: 35px;
     text-transform: capitalize;
-    font-family: 'MuseoSansCyrl-300';
+   
 }
 a{
     text-decoration: none;
@@ -81,17 +146,20 @@ a{
     background-color:#FF7475;
 }
 .topbar-title-text{
-    font-family: 'Tahoma Regular';
+    font-family: "Gilroy";
+    font-weight: 700;
 }
 
 .topbar-title-text-page{
     color: #FF7475;
     padding-top: 100px;
-    font-weight: bold;
+    font-family: "Gilroy";
+    font-weight: 400;
 }
 
 .topbar-title-text-page-two{
-    font-family: 'Tahoma Regular';
+    font-family: "Gilroy";
+    font-weight: 700;
     margin-top: -20px;
     color: #fff;
     font-size: 30px;
@@ -99,7 +167,9 @@ a{
 
 .topbar-title-text-page-thre{
     color: #fff;
-    font-weight: bold; 
+    font-family: "Gilroy";
+    font-weight: 300; 
+    font-size: 20px;
 }
 
 .visually-hidden{
@@ -119,14 +189,15 @@ a{
     position: sticky;
 }
 .title-text{
-    font-family: 'Tahoma Regular';
+    font-family: "Gilroy";
     font-size: 20px;
     color: #939393;
     font-weight: bolder;
 }
 
 .title-text-page{
-    font-family: 'Tahoma Regular';
+    font-family: "Gilroy";
+    font-weight: 400;
     font-size: 15px;
     color: #939393;
     padding-bottom: 80px;
@@ -166,6 +237,7 @@ a{
     margin-left: 70px;
     float: left;
     display: block;
+  
 }
 .title-text-laminat{
     font-size: 18px;
@@ -276,3 +348,4 @@ color: #fff;
     color: #fff;
     font-size: 22px;
 }
+
